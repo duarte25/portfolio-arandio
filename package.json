@@ -36,11 +36,8 @@
     "wrangler": "^4.33.0"
   },
   "scripts": {
-    "build": "tsc -b && vite build",
-    "cf-typegen": "wrangler types",
-    "check": "tsc && vite build && wrangler deploy --dry-run",
     "dev": "vite",
-    "knip": "knip",
-    "lint": "eslint ."
+    "build": "vite build",
+    "start": "node server.js"
   }
 }
