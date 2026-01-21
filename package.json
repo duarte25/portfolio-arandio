@@ -40,6 +40,7 @@
     "cf-typegen": "wrangler types",
     "check": "tsc && vite build && wrangler deploy --dry-run",
     "dev": "vite",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "npx serve -s dist -l ${PORT:-3000}"
   }
 }
