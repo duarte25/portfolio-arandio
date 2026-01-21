@@ -41,6 +41,6 @@
     "check": "tsc && vite build && wrangler deploy --dry-run",
     "dev": "vite",
     "lint": "eslint .",
-    "start": "npx serve -s dist -l ${PORT:-3000}"
+    "start": "npx serve -s dist/client -l ${PORT:-3000}"
   }
 }
